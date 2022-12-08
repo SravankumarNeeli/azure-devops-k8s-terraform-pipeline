@@ -54,3 +54,4 @@ stages:
         namespace: 'default'
         manifests: '$(System.ArtifactsDirectory)/configuration/k8s/deployment.yaml'
         containers: 'kousikm/hello_rest_api:$(tag)'
+        
